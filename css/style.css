@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(9, 46, 78);
+    width: 800px;
+    margin:auto;
+  
+}
+
+#content {
+    color: white;
+    padding: 15px;
+}
+
+#me {
+    float: left;
+    margin-left: 50px;
+    width: 20%;
+    height: auto;
+    padding-right: 20px;
+    margin-top: 100px;
+}
+
+#text {
+    padding: 170px 0px;
+    font-size:40px;
+    font-family: Arial, Helvetica, sans-serif
+}
