@@ -14,7 +14,6 @@ body {
     text-align: center;
     font-family: 'robotothin',Arial, Helvetica, sans-serif;
     line-height: 0.5;
-  
 }
 
 #quote {
@@ -28,7 +27,7 @@ body {
 
 #me {
     float: left;
-    width: 25%;
+    width: 22%;
     height: auto;
     padding-left: 30px;
     margin-top: 100px;
