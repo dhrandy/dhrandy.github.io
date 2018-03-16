@@ -16,7 +16,6 @@ body {
     background-color: #4388bc;  
     text-align: center;
     font-family: 'robotothin',Arial, Helvetica, sans-serif;
-    line-height: 1;
 }
 
 .quote {
@@ -34,6 +33,7 @@ body {
     float: left;
     border: solid 2px;
     border-color: #274e6d;
+
 }
 
 .text {
@@ -42,12 +42,15 @@ body {
 
 .introduction {
     font-size:25px;
-    padding-bottom: 10px;
     padding-top: 60px;
 }
 
 .textright {
     padding-top:40px;
+}
+
+footer {
+    clear: both;
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
@@ -62,10 +65,38 @@ body {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .column2 {
+        width: 50%;
+        margin-top: 5%;
+    }
+}
+
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
     .column {
-        width: 100%;
-        
+        width: 100%; 
     }
 }
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .meimage {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .abovetext {
+        margin-top: 280px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .meimage {
+        margin-bottom: 15px;
+    }
+}
+
+
+
