@@ -53,11 +53,11 @@ body {
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column {
-        width: 80%;
+        width: 100%;
         text-align: center;
-        font-size: 80%;
+        font-size: 110%;
         padding: 0px;
-        margin-left: 0px;
+        margin: 0px;
         
     }
 }
@@ -65,7 +65,7 @@ body {
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (max-width: 992px) {
     .column {
-        width: 50%;
+        width: 100%;
         
     }
 }
