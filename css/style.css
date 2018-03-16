@@ -43,6 +43,7 @@ body {
 .introduction {
     font-size:25px;
     padding-top: 60px;
+    line-height: 1;
 }
 
 .textright {
