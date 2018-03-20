@@ -1,7 +1,11 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
 
   body {
     background: url("../imgs/background.jpg");
-    background-repeat: repeat;
+    background-size: cover;
   }
 
   h1, h2 {
@@ -28,8 +32,10 @@
   /* Grid */
 
 .container {
+    
+
     background-color: white;
-    0
+    margin-bottom:50px;
 }
 
 .row {
