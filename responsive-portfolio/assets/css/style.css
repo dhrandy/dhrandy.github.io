@@ -79,7 +79,6 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
-  padding-right: 15px;
 }
 
 nav a { 
@@ -252,6 +251,10 @@ input[type=submit] {
     max-width: 750px;
     padding:5;
     margin:0;
+  }
+
+  nav {
+    padding-right: 15px;
   }
 }
 
