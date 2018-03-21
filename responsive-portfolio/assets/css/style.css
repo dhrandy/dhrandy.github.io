@@ -246,11 +246,6 @@ input[type=submit] {
     padding:5;
     margin:0;
   }
-
-  nav {
-    margin-right: 10px;
-  }
-
 }
 
 @media only screen and (max-width: 640px) {
@@ -262,8 +257,10 @@ input[type=submit] {
   }
 
   nav {
-    float: left;
+    clear: both;
+    width: 100%;
     text-align: center;
+    margin-right: 10px;
   }
   
 }
