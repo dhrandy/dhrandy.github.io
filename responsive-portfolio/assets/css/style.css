@@ -134,6 +134,12 @@ h3, h2 {
   border: 1px solid #ddd;
 }
 
+.main-section-other {
+  clear: both;
+  width: 100%;
+  max-width: 960px;
+}
+
 .sidebar-section {
   float: left;
   padding: 30px;
