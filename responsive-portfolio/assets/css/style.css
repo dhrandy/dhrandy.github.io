@@ -270,11 +270,15 @@ input[type=submit] {
   }
 
   .main-section {
-    margin: 0 0 7px;
+    width: 97%;
+    margin: 0 5px 7px 5px;
+    padding: 15px;
   }
 
   .sidebar-section {
-    margin-bottom: 7px;
+    width: 97%;
+    margin: 0 5px 7px 5px;
+    padding: 15px;
   }
 
   .auth-image {
