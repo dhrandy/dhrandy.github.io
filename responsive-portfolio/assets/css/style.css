@@ -243,14 +243,14 @@ input[type=submit] {
     clear: both;
     width: 100%;
     max-width: 750px;
+    margin: 0 8px 0 8px;
   }
 
   .sidebar-section {
     clear: both;
     width: 100%;
     max-width: 750px;
-    padding:5;
-    margin:0;
+    margin:15px 8px 0 8px;
   }
 
   nav {
