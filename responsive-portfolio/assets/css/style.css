@@ -110,6 +110,9 @@ footer {
   border-top: 8px solid #2b8bb1;
   height: 50px;
   font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 h3, h2 {
@@ -131,7 +134,7 @@ h3, h2 {
   width: 65%;
   max-width: 760px;
   padding: 30px;
-  margin: 0 0 40px 10px;
+  margin: 0 0 40px 20px;
   background: #fff;
   border: 1px solid #ddd;
 }
@@ -144,6 +147,7 @@ h3, h2 {
 
 .sidebar-section {
   float: left;
+  width: 30%;
   padding: 30px;
   margin: 0 0 40px 20px;
   background: #fff;
@@ -261,6 +265,14 @@ input[type=submit] {
 
   nav {
     padding-right: 15px;
+  }
+
+  footer {
+    position: static;
+    position: 0;
+    width: 101%;
+    margin-top: 20px;
+
   }
 }
 
