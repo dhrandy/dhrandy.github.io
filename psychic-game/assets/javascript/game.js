@@ -6,12 +6,14 @@
         var guessesLeft= 10;
         var audio = document.createElement('audio');
         audio.src = './assets/sounds/buzz.mp3';
-        
-        //user presse key function
-        document.onkeyup = function(event) {
 
         //random letter picked and stored
         var computerPick = computerRandom[Math.floor(Math.random() * computerRandom.length)];
+        
+        for(i=0;i<10;i++){
+
+        //user presse key function
+        document.onkeyup = function(event) {
 
         // Determines which key was pressed.
         var userPick = event.key;
@@ -32,8 +34,9 @@
                     guesses = [];
                     audio.play();
                     alert("You are all out of guesses.....  Try again");
-                }
+                
             }
+        }
 
         // Creating a variable to hold our new HTML. Our HTML now keeps track of the user wins, losses, etc.
         var html =
@@ -45,4 +48,4 @@
 
         // Set the inner HTML contents of the #game div to our html string
         document.querySelector("#game").innerHTML = html;
-      };
+      }}
