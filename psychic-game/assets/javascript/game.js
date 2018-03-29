@@ -4,6 +4,8 @@
         var losses = 0;
         var guesses= [];
         var guessesLeft= 10;
+        var audio = document.createElement('audio');
+        audio.src = 'buzz.mp3';
         
         //user presse key function
         document.onkeyup = function(event) {
@@ -19,6 +21,7 @@
             // add 1 to wins.    
             wins++;
             guesses= [];
+            alert("Winner, Winner, Chicken Dinner!");
             } else if (userPick !== computerPick) {
             // subtract 1 from guesses.    
             guessesLeft--;
@@ -27,6 +30,8 @@
                     losses++;
                     guessesLeft = 10;
                     guesses = [];
+                    audio.play();
+                    alert("You are all out of guesses.....  Try again");
                 }
             }
 
