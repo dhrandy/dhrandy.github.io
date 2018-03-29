@@ -5,7 +5,7 @@
         var guesses= [];
         var guessesLeft= 10;
         var audio = document.createElement('audio');
-        audio.src = 'buzz.mp3';
+        audio.src = './sounds/buzz.mp3';
         
         //user presse key function
         document.onkeyup = function(event) {
