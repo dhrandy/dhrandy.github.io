@@ -29,10 +29,10 @@
             guessesLeft--;
                 // if guesses reach 0, reset to 10 and add loss.
                 if (guessesLeft === 0) {
+                    audio.play();
                     losses++;
                     guessesLeft = 10;
                     guesses = [];
-                    audio.play();
                     alert("You are all out of guesses.....  Try again");
                 
             }
