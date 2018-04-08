@@ -204,10 +204,18 @@ H3 {
         margin-right: 15px;
 }
 
-/* .icon {
-    float: ;;
-} */
+.facebookIcon, .twitterIcon, .linkedinIcon {
+    width: 35px;
+}
 
+.zoom {
+    transition: transform .4s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 @media only screen and (max-width: 770px){
 
@@ -232,7 +240,7 @@ H3 {
 }
 
 .navbar-header {
-    width: 90%;
+    width: 100%;
 }
 
 .container {
@@ -241,7 +249,7 @@ H3 {
 }
 
 .navbar-toggle {
-    margin-right: 30px;
+    margin-right: 0px;
 }
 
 .navbar-brand {
@@ -306,7 +314,7 @@ footer {
 }
 
 @media only screen and (max-width: 640px) {
-    .page4Resume {
-      
+    .caption {
+        top: 21%;
     }
 }
