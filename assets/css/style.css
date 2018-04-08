@@ -206,6 +206,11 @@ H3 {
     margin-top: 0px;
 }
 
+.row4 {
+        margin-left: 15px;
+        margin-right: 15px;
+}
+
 /* .icon {
     float: ;;
 } */
@@ -257,8 +262,10 @@ footer {
     font-size: 30px;
 }
 
-.myy-auto {
+.my-auto {
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .resume-section {
@@ -289,6 +296,8 @@ label {
 .row4 {
     margin-left: 10px;
     margin-right: 10px;
+}
+
 }
 
 .section1 {
