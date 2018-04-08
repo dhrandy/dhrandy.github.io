@@ -310,7 +310,7 @@ label {
 }
 
 footer {
-    bottom: 40px;
+    bottom: -40px;
 }
 
 }
@@ -318,5 +318,9 @@ footer {
 @media only screen and (max-width: 640px) {
     .caption {
         top: 21%;
+    }
+
+    footer {
+        bottom: -40px;
     }
 }
