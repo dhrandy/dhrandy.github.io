@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'robotothin';
+    src: url('roboto-thin-webfont.woff2') format('woff2'),
+         url('roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-color: #274e6d;
+    height: 15px;
+}
+
+body {
+    
+    background-color: #4388bc;  
+    text-align: center;
+    font-family: 'robotothin',Arial, Helvetica, sans-serif;
+}
+
+.quote {
+    font-size: 17px;
+}
+
+.content {
+    color: white;
+    width: 60%;
+    margin:auto;
+    margin-top: 130px;
+}
+
+.meimage {
+    float: left;
+    border: solid 2px;
+    border-color: #274e6d;
+
+}
+
+.text {
+    font-size:38px;
+}
+
+.introduction {
+    font-size:25px;
+    padding-top: 42px;
+    line-height: 1;
+}
+
+.textright {
+    padding-top:40px;
+}
+
+footer {
+    clear: both;
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column2 {
+        width: 50%;
+        margin-top: 5%;
+    }
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .column {
+        width: 100%; 
+    }
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .meimage {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .abovetext {
+        margin-top: 280px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .meimage {
+        margin-bottom: 15px;
+    }
+}
+
+
+
