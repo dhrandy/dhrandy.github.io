@@ -239,6 +239,8 @@ H3 {
     padding-bottom: 20px;
 }
 
+
+
 .navbar-header {
     width: 100%;
 }
@@ -271,12 +273,12 @@ H3 {
 .page4Resume {
     margin-left: 15px;
     margin-right: 15px;
-    height: 2000px;
+    height: 100%;
     padding-bottom: 20px;
 }
 
 .page5Contact {
-    height: 800px;
+    height: 100%;
 }
 
 .form-control {
@@ -308,7 +310,7 @@ label {
 }
 
 footer {
-    bottom: 0px;
+    bottom: 40px;
 }
 
 }
