@@ -18,9 +18,6 @@ footer {
     background-color: #7e7d83;
     color: #fff;
     padding: 16px;
-    bottom: 0;
-    position:fixed;
- 
 }
 
 .navbar {
@@ -219,6 +216,11 @@ H3 {
     width: 10em;
 }
 
+footer {
+    bottom: 0;
+    position:fixed;
+}
+
 .page2Row {
     margin-left: 40px;
     margin-right:40px;
@@ -232,6 +234,7 @@ H3 {
 
 .page3 {
     height: 100vh;
+    padding-bottom: 20px;
 }
 
 .navbar-header {
