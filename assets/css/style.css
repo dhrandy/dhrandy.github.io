@@ -17,8 +17,10 @@ footer {
     height: 60px;
     background-color: #7e7d83;
     color: #fff;
-    padding: 22px;
-    padding-bottom: 0;
+    padding: 16px;
+    bottom: 0;
+    position:fixed;
+ 
 }
 
 .navbar {
@@ -107,7 +109,7 @@ background-color: #7e7d83;
 .page4
 {
     padding-top: 50px;
-    height: 1580px;
+    height: 1600px;
     width: 800px;
 }
 
@@ -211,7 +213,7 @@ H3 {
 } */
 
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 770px){
 
 #meImage {
     width: 10em;
@@ -262,7 +264,7 @@ H3 {
 .page4 {
     margin-left: 15px;
     margin-right: 15px;
-    height: 100%;
+    height: 1700px;
 }
 
 .form-control {
@@ -297,4 +299,11 @@ label {
     height: 115%;
 }
 
+}
+
+@media only screen and (max-width: 640px) {
+    .page4 {
+        height: 1700px;
+        padding-bottom: 20px;
+    }
 }
