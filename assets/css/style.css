@@ -18,6 +18,8 @@ footer {
     background-color: #7e7d83;
     color: #fff;
     padding: 16px;
+    position: relative;
+   bottom: 0px;
 }
 
 .navbar {
@@ -38,15 +40,6 @@ background-color: #7e7d83;
 .section1, .section3 {
     background-color: #7e7d83;
     background-image: url("../images/dark_grey.jpg");  
-}
-
-.pixel-overlay {
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: url('../images/black-dots-pattern.png'); /* or any other overlay image/color */   
 }
 
 .caption {
@@ -92,26 +85,26 @@ background-color: #7e7d83;
     margin-top: 20px 50px 0 50px;
 }
 
-.page2 {
+.page2About {
     background-repeat: repeat;
     height: 100vh;
     padding-top: 7em;
 }
 
 
-.page3 {
+.page3Portfolio {
     padding-top: 3em;
     height: 110vh;
 }
 
-.page4
+.page4Resume
 {
     padding-top: 50px;
     height: 1670px;
     width: 800px;
 }
 
-.page5 {
+.page5Contact {
     height: 100vh;
     width: 800px;
     justify-content: center;
@@ -195,7 +188,7 @@ H3 {
 
 #contact {
     padding-top: 50px;
-    height: 800px;
+  
 }
 
 .section5 {
@@ -222,23 +215,18 @@ H3 {
     width: 10em;
 }
 
-footer {
-    bottom: 0;
-    position:fixed;
-}
-
 .page2Row {
     margin-left: 40px;
     margin-right:40px;
     padding-top: 3em;
 }
 
-.page2 {
+.page2About {
     padding-top: 12px;
     height: 100%;
 }
 
-.page3 {
+.page3Portfolio {
     height: 100vh;
     padding-bottom: 20px;
 }
@@ -272,10 +260,15 @@ footer {
     width: 100%;
 }
 
-.page4 {
+.page4Resume {
     margin-left: 15px;
     margin-right: 15px;
-    height: 1700px;
+    height: 2000px;
+    padding-bottom: 20px;
+}
+
+.page5Contact {
+    height: 800px;
 }
 
 .form-control {
@@ -298,25 +291,17 @@ label {
     margin-right: 10px;
 }
 
-}
-
 .section1 {
     height: 135%;
-}
-
-.contact-section {
-    height: 145%;
 }
 
 .intro-section {
     height: 115%;
 }
-
 }
 
 @media only screen and (max-width: 640px) {
-    .page4 {
-        height: 1700px;
-        padding-bottom: 20px;
+    .page4Resume {
+      
     }
 }
