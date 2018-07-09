@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- ====Reset CSS==== -->
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <!-- ====Google Fonts CSS==== -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
@@ -25,7 +25,7 @@
 <body>
     <!-- ====Navigation==== -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Randy Gentry</a>
+        <a class="navbar-brand me" href="#home">RANDY GENTRY</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,23 +33,23 @@
         <div class="collapse navbar-collapse myNavbar" id="navbarNav">
             <ul class="nav navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#about-section">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#knowledge">Knowledge</a>
+                    <a class="nav-link" href="#knowledge-section">Knowledge</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#portfolio-section">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contact-section">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- ====Title==== -->
-    <div class="container-fluid title-img">
+    <div class="container-fluid title-img" id="home">
         <div class="caption">
             <span class="title">RANDY GENTRY</span>
             <br>
@@ -76,9 +76,8 @@
     </div>
 
     <!-- ====About Me==== -->
-    <section id="about-me-section">
+    <section id="about-section">
         <div class="container">
-                <a name="about"></a>
             <div class="row about-me-row">
                 <div class="col-xm-12 col-sm-12 col-md-6 img-col">
                     <img id="meImage" src="assets/imgs/me2.jpg">
@@ -92,16 +91,17 @@
                     </p>
                 </div>
             </div>
+            <a div class="center chevron nav-link" href="#knowledge-section">
+                <i class="fas fa-angle-down"></i>
+            </a>
         </div>
     </section>
     <!-- ====Knowledge==== -->
     <section id="knowledge-section">
         <div class="container">
-                <a name="knowledge"></a>
             <div class="row knowledge-row">
                 <div class="col">
                     <h2 class="center">KNOWLEDGE IS POWER</h2>
-                    <!-- <h2 class="center">Knowledge is Power</h2> -->
                 </div>
             </div>
             <div class="row">
@@ -136,12 +136,14 @@
                     <p>Sometimes we need some storage, this is where the database comes in. MySQL, Firebase, and MongoDB.</p>
                 </div>
             </div>
+            <a div class="center chevron nav-link" href="#portfolio-section">
+                <i class="fas fa-angle-down"></i>
+            </a>
         </div>
     </section>
     <!-- ====Portfolio==== -->
     <section id="portfolio-section">
         <div class="container" id="three">
-                <a name="portfolio"></a>
             <div class="row knowledge-row">
                 <div class="col">
                     <h2 class="center">CHECKOUT MY WORK</h2>
@@ -266,28 +268,26 @@
                             <div class="text-portfolio">Future Work</div>
                         </div>
                     </div>
+
                 </div>
+
             </div>
-        </div>
+            <p class="center projects-progress">Some projects are a work in progress.</p>
+            <a div class="center chevron nav-link" href="#contact-section">
+                <i class="fas fa-angle-down"></i>
+            </a>
         </div>
     </section>
-    <!-- ====Resume==== -->
-    <!-- <section="resume-section">
-        <div class="container" id="four">
-        </div>
-        </section> -->
 
     <!-- ====Contact==== -->
     <section id="contact-section">
         <div class="container" id="four">
-                <a name="contact"></a>
             <div class="row contact-row">
                 <div class="col center">
                     <h2>CONTACT ME</h2>
                 </div>
             </div>
             <div class="row contact-row">
-
                 <div class="col-12 col-md-6 right">
                     <i class="fas fa-envelope"></i>
                 </div>
@@ -298,17 +298,20 @@
                     <p>Send me an email and I'll get back to you soon.</p>
                 </div>
             </div>
+            <a div class="center chevron-up nav-link" href="#home">
+                <i class="fas fa-angle-up"></i>
+            </a>
         </div>
     </section>
 
     <!-- ====Scripts==== -->
-    <script src="assets/js/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.0/smooth-scroll.min.js"></script>
     <script src="assets/js/scrolling-nav.js"></script>
 </body>
 

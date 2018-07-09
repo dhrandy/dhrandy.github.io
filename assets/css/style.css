@@ -21,10 +21,24 @@ h2 {
     text-decoration: underline;
 }
 
-/* Navigation */
+/* For scrolling to the next section */
+.chevron {
+    font-size: 50px;
+    padding-top: 20px;
+}
 
+.chevron-up {
+    font-size: 50px;
+    padding: 0px;
+}
+
+/* Navigation */
 #navbarNav {
     flex-direction: row-reverse;
+}
+
+.me {
+    font-weight: bold;
 }
 
 /* General */
@@ -71,10 +85,10 @@ hr {
 }
 
 /* About Me */
-#about-me-section {
+#about-section {
     background-color: lightgray;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 #meImage {
@@ -103,7 +117,7 @@ hr {
 /* Knowledge */
 #knowledge-section {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .knowledge-row {
@@ -138,7 +152,7 @@ hr {
 #portfolio-section {
     background-color: lightgray;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .container-portfolio {
@@ -179,11 +193,15 @@ hr {
       padding: 0px;
   }
 
+  .projects-progress {
+      padding-top:20px;
+  }
+
   /* Email Section */
   #contact-section {
     background-color: white;
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .fa-envelope {
