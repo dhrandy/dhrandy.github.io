@@ -1,0 +1,324 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/light_grey.png");
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    background-color: #7e7d83;
+    color: #fff;
+    padding: 16px;
+    position: relative;
+   bottom: -150px;
+}
+
+.navbar {
+background-color: #7e7d83; 
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/bg4.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.section1, .section3 {
+    background-color: #7e7d83;
+    background-image: url("../images/dark_grey.jpg");  
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.title {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.caption span.border {
+  /* background-color: #111; */
+  color: #fff;
+  padding: 5px;
+  font-size: 40px;
+  letter-spacing: 8px;
+}
+
+.quote {
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.page2Row {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#meImage {
+    width: 17em;
+    border-radius: 50%;
+}
+
+
+.imageCol {
+    margin-top: 20px 50px 0 50px;
+}
+
+.page2About {
+    background-repeat: repeat;
+    height: 100vh;
+    padding-top: 7em;
+}
+
+
+.page3Portfolio {
+    padding-top: 3em;
+    height: 170vh;
+}
+
+.page4Resume
+{
+    padding-top: 50px;
+    height: 1670px;
+    width: 800px;
+}
+
+.page5Contact {
+    height: 100vh;
+    width: 800px;
+    justify-content: center;
+}
+
+
+h2 {
+    margin-top: 30px;
+    text-align: left;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+H3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.mb-3 {
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.col-md-4 {
+    margin-bottom: 10px;
+   
+}
+
+.col-xs-12 {
+    margin-bottom: 10px;
+   
+}
+
+.col-sm-6 {
+    margin-bottom: 10px;
+   
+}
+
+.portfolioTitle {
+    margin-left: 69px;
+    text-align: left;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 26%;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container1 {
+    padding: 2px 16px;
+}
+
+.page3Row {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-section {
+    padding-top: 57px;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+#contact {
+    padding-top: 50px;
+  
+}
+
+.section5 {
+    background-image: url("../images/light_grey.png");
+}
+
+#form-heading-00000002-acc {
+    margin-top: 0px;
+}
+
+.row4 {
+        margin-left: 15px;
+        margin-right: 15px;
+}
+
+.facebookIcon, .twitterIcon, .linkedinIcon {
+    width: 35px;
+}
+
+.zoom {
+    transition: transform .4s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media only screen and (max-width: 770px){
+
+#meImage {
+    width: 10em;
+}
+
+.page2Row {
+    margin-left: 40px;
+    margin-right:40px;
+    padding-top: 3em;
+}
+
+.page2About {
+    padding-top: 12px;
+    height: 100%;
+}
+
+.page3Portfolio {
+    height: 100vh;
+    padding-bottom: 20px;
+}
+
+.navbar-header {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    padding: 0px;
+}
+
+.navbar-toggle {
+    margin-right: 0px;
+}
+
+.navbar-brand {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.my-auto {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.resume-section {
+    width: 100%;
+}
+
+.page4Resume {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.page5Contact {
+    height: 100%;
+}
+
+.form-control {
+    width: 50%;
+    margin-left: 15px;
+    clear: both;
+}
+
+label {
+    float: left;
+    margin-left: 25px;
+}
+
+#contact {
+    padding-top: 0px;
+}
+
+.row4 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section1 {
+    height: 135%;
+}
+
+.intro-section {
+    height: 115%;
+}
+
+footer {
+    bottom: -40px;
+}
+
+}
+
+@media only screen and (max-width: 640px) {
+    .caption {
+        top: 21%;
+    }
+
+    footer {
+        bottom: -236px;
+    }
+}
