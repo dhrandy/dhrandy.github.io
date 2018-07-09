@@ -196,7 +196,7 @@ hr {
 }
 
 .email {
-    padding-top: 1vh;
+    padding-top: 2vh;
 }
 
 #email-me {
@@ -207,5 +207,13 @@ hr {
     #meImage {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .mobile-center {
+        text-align: center;
+    }
+
+    .right {
+        text-align: center;
     }
 }
