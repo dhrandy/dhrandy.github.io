@@ -235,9 +235,18 @@ hr {
         text-align: center;
     }
 
+    .chevron {
+        padding: 0px;
+    }
+
     /* Mobile about section */
     #about-section {
         padding-top: 45px;
+        padding-bottom: 0px;
+    }
+
+    .about-me-text {
+        padding-top: 30px;
         padding-bottom: 0px;
     }
 
@@ -256,5 +265,6 @@ hr {
      /* Mobile contact section */
      #contact-section {
         padding-top: 55px;
+        padding-bottom: 10px;
     }
 }
