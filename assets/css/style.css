@@ -234,4 +234,27 @@ hr {
     .right {
         text-align: center;
     }
+
+    /* Mobile about section */
+    #about-section {
+        padding-top: 45px;
+        padding-bottom: 0px;
+    }
+
+    /* Mobile knowledge section */
+    #knowledge-section {
+        padding-top: 55px;
+        padding-bottom: 0px;
+    }
+
+     /* Mobile portfolio section */
+     #portfolio-section {
+        padding-top: 55px;
+        padding-bottom: 0px;
+    }
+
+     /* Mobile contact section */
+     #contact-section {
+        padding-top: 55px;
+    }
 }
