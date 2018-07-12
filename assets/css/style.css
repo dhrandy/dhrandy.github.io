@@ -37,8 +37,17 @@ h2 {
     flex-direction: row-reverse;
 }
 
-.me {
+.nav {
+    background-color: transparent;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.me.navbar-brand {
     font-weight: bold;
+    color: white;
 }
 
 /* General */
