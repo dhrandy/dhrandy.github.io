@@ -2,7 +2,6 @@
 <html lang="en">
 <!-- Welcome to my html code 
 Designed and edited by Randy Gentry-->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,17 +17,7 @@ Designed and edited by Randy Gentry-->
     <title>Randy Gentry</title>
     <!-- ====Google Analytics==== -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122106054-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-122106054-1');
-    </script>
-
+    <script src="assets/js/google-analytics.js"></script>
 </head>
 
 <body>
@@ -56,9 +45,8 @@ Designed and edited by Randy Gentry-->
             </ul>
         </div>
     </nav>
-
     <!-- ====Title==== -->
-    <div class="container-fluid title-img" id="home">
+    <div class="container-responsive title-img" id="home">
         <div class="caption">
             <span class="title">RANDY GENTRY</span>
             <br>
@@ -78,20 +66,19 @@ Designed and edited by Randy Gentry-->
                     <img src="assets/imgs/linkedin.png" class="linkedinIcon zoom" target="blank">
                 </a>
                 <a href="https://github.com/dhrandy">
-                    <img src="assets/imgs/github.png" class="linkedinIcon zoom" target="blank">
+                    <img src="assets/imgs/github.png" class="githubIcon zoom" target="blank">
                 </a>
             </span>
         </div>
     </div>
-
     <!-- ====About Me==== -->
     <section id="about-section">
         <div class="container">
             <div class="row about-me-row">
-                <div class="col-xm-12 col-sm-12 col-md-6 img-col">
+                <div class="col-md-6 col-sm-12 img-col">
                     <img id="meImage" src="assets/imgs/me2.jpg">
                 </div>
-                <div class="col-md-6 col-xm-12 col-sm-12 about-me-text">
+                <div class="col-md-6 col-sm-12 about-me-text">
                     <p id="bold">Meet Randy Gentry!</p>
                     <p>I am a web developer that has skills in both the back-end of web applications and the front-end. I have
                         experience working in a dynamic corporate environment closely with design engineers. Working with
@@ -285,7 +272,6 @@ Designed and edited by Randy Gentry-->
             </a>
         </div>
     </section>
-
     <!-- ====Contact==== -->
     <section id="contact-section">
         <div class="container">
@@ -311,7 +297,6 @@ Designed and edited by Randy Gentry-->
             </a>
         </div>
     </section>
-
     <!-- ====Footer==== -->
     <section id="footer-section">
         <div class="container-fluid">
@@ -330,6 +315,8 @@ Designed and edited by Randy Gentry-->
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.0/smooth-scroll.min.js"></script>
     <script src="assets/js/scrolling-nav.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="assets/js/scroll-reveal.js"></script>
 </body>
 
 </html>

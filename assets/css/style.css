@@ -51,7 +51,7 @@ h2 {
     /* The image used */
     background-image: url("../imgs/bg1.jpg");
     /* Full height */
-    height: 70%;
+    height: 100vh;
     /* Center and scale the image nicely */
     background-position: center center;
     background-repeat: no-repeat;
@@ -235,10 +235,35 @@ hr {
     padding-top: 12px;
 }
 
+
+@media only screen and (max-width: 1980px) {
+    .caption {
+        top: 31%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .caption {
+        top: 33%;
+    }
+}
+
+
+@media only screen and (max-height: 400px) {
+    .caption {
+        top: 28%;
+    }
+
+}
+
 @media only screen and (max-width: 767px) {
     #meImage {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .caption {
+        top: 27%;
     }
 
     .mobile-center {
