@@ -31,25 +31,25 @@ sr.reveal('#meImage', {
 sr.reveal('.fa-code', {
     duration: 2000,
     origin: 'left',
-    distance: '300px'
+    distance: '200px'
 })
 sr.reveal('.fa-css3-alt', {
     duration: 2000,
     origin: 'top',
-    distance: '300px'
+    distance: '200px'
 })
 sr.reveal('.fa-js', {
     duration: 2000,
     origin: 'bottom',
-    distance: '300px'
+    distance: '200px'
 })
 sr.reveal('.fa-database', {
     duration: 2000,
     origin: 'right',
-    distance: '300px'
+    distance: '200px'
 })
 sr.reveal('.fa-envelope', {
-    duration: 2000,
+    duration: 1000,
     origin: 'left',
-    distance: '200px'
+    distance: '100px'
 })
