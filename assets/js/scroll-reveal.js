@@ -53,3 +53,6 @@ sr.reveal('.fa-envelope', {
     origin: 'left',
     distance: '100px'
 })
+sr.reveal('.img-fluid', { 
+    duration: 1500 }, 100
+)
