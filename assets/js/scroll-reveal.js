@@ -78,7 +78,6 @@ sr.reveal('#knowledge-section', {
     duration: 600
 })
 sr.reveal('#portfolio-section', {
-    reset: true,
     mobile: false,
     distance: '2px',
     duration: 600
