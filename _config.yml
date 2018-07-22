@@ -1,1 +1,24 @@
-theme: jekyll-theme-architect
+plugins:
+  - jekyll-seo-tag
+
+  # Site settings
+title: Randy Gentry's Portfolio Website
+email: dhrandy@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I am a web developer that has skills in both the back-end of web 
+  applications and the front-end. I have experience working in a 
+  dynamic corporate environment closely with design engineers. Working
+   with those engineers influenced my decision to become a web developer
+    to create web products and solve problems.
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://randy-gentry.com" # the base hostname & protocol for your site
+twitter_username: dhrandy
+github_username:  dhrandy
+
+social:
+  name: Randy Gentry
+  links:
+    - https://twitter.com/dhrandy
+    - https://www.facebook.com/dhrandy
+    - https://www.linkedin.com/in/dhrandy
+    - https://github.com/dhrandy

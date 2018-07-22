@@ -70,7 +70,7 @@ h2 {
 .caption {
     position: absolute;
     left: 0;
-    top: 33%;
+    top: 36vh;
     width: 100%;
     text-align: center;
     color: white;
@@ -243,7 +243,7 @@ hr {
     padding-top: 12px;
 }
 
-
+/* 
 @media only screen and (max-width: 1980px) {
     .caption {
         top: 31%;
@@ -254,12 +254,19 @@ hr {
     .caption {
         top: 33%;
     }
+} */
+
+@media only screen and (max-height: 320px) {
+    .caption {
+        top: 20vh;
+    }
+
 }
 
 
 @media only screen and (max-height: 400px) {
     .caption {
-        top: 28%;
+        top: 30vh;
     }
 
 }
@@ -271,7 +278,7 @@ hr {
     }
 
     .caption {
-        top: 27%;
+        top: 33vh;
     }
 
     .mobile-center {
