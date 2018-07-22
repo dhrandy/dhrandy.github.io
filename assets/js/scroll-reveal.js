@@ -58,35 +58,40 @@ sr.reveal('.fa-envelope', {
     origin: 'left',
     distance: '100px'
 })
-sr.reveal('.img-fluid', { 
-    duration: 1500 }, 100
-)
+sr.reveal('.img-fluid', {
+    duration: 1500
+}, 100)
 
 
 
 //Sections
 sr.reveal('#about-section', {
     reset: true,
+    mobile: false,
     distance: '2px',
     duration: 600
 })
 sr.reveal('#knowledge-section', {
     reset: true,
+    mobile: false,
     distance: '2px',
     duration: 600
 })
 sr.reveal('#portfolio-section', {
     reset: true,
+    mobile: false,
     distance: '2px',
     duration: 600
 })
 sr.reveal('#knowledge-section', {
     reset: true,
+    mobile: false,
     distance: '2px',
     duration: 600
 })
 sr.reveal('#contact-section', {
     reset: true,
+    mobile: false,
     distance: '2px',
     duration: 600
 })
