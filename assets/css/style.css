@@ -241,19 +241,6 @@ hr {
     padding-top: 12px;
 }
 
-/* 
-@media only screen and (max-width: 1980px) {
-    .caption {
-        top: 31%;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .caption {
-        top: 33%;
-    }
-} */
-
 @media only screen and (max-height: 320px) {
     .caption {
         top: 20vh;
@@ -306,5 +293,25 @@ hr {
     #contact-section {
         padding-top: 55px;
         padding-bottom: 10px;
+    }
+}
+
+/* Parallax Scrolling for the title image */
+
+.parallax {
+    /* The image used */
+    /* background-image: url('img_parallax.jpg'); */
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 767px) {
+    .parallax {
+        background-attachment: scroll;
     }
 }
