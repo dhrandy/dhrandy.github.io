@@ -62,9 +62,7 @@ sr.reveal('.img-fluid', {
     duration: 1500
 }, 100)
 
-
-
-//Sections
+//Sections - Removed when I added parallax
 // sr.reveal('#about-section', {
 //     reset: true,
 //     mobile: false,

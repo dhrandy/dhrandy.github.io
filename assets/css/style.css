@@ -299,42 +299,43 @@ hr {
 /* Parallax Scrolling for the title image */
 
 .parallax {
-  /* The image used */
-  /* background-image: url('img_parallax.jpg'); */
-  /* Full height */
   height: 100%;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .knowledge-parallax {
   background-image: url("../imgs/bg3.jpg");
 }
+
 .portfolio-parallax {
   background-image: url("../imgs/bg4.jpg");
 }
+
 .contact-parallax {
   background-image: url("../imgs/bg5.jpg");
 }
+
 .parallax-images {
-height: 300px;
-width: 100%;
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+  height: 300px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
+
 .parallax-text {
   position: absolute;
   text-align: center;
   color: white;
   top: 43%;
-  width:100%;
+  width: 100%;
 }
+
 @media only screen and (max-width: 1366px) {
   .parallax {
     background-attachment: scroll;
