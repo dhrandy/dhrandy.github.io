@@ -46,24 +46,10 @@ h2 {
   text-align: center;
 }
 
-/* Title */
-
-.title-img {
-  /* The image used */
-  background-image: url("../imgs/bg1.jpg");
-  /* Full height */
-  height: 100vh;
-  /* Center and scale the image nicely */
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .caption {
   position: absolute;
   left: 0;
-  top: 36vh;
+  top: 30vh;
   width: 100%;
   text-align: center;
   color: white;
@@ -298,20 +284,17 @@ hr {
 
 /* Parallax Scrolling for the title image */
 
-.parallax {
-  /* The image used */
-  /* background-image: url('img_parallax.jpg'); */
-  /* Full height */
-  height: 100%;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
+.parallax-window {
+  height: 100vh;
+  background: transparent;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
-@media only screen and (max-width: 767px) {
-  .parallax {
+@media only screen and (max-width: 1366px) {
+  .parallax-window {
     background-attachment: scroll;
   }
 }
