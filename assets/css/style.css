@@ -1,317 +1,342 @@
 body,
 html {
-    width: 100%;
-    height: 100%;
-    margin: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 h2 {
-    font-weight: 700;
-    text-decoration: underline;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 /* For scrolling to the next section */
 
 .chevron {
-    font-size: 50px;
-    padding-top: 20px;
+  font-size: 50px;
+  padding-top: 20px;
 }
 
 .chevron-up {
-    font-size: 50px;
-    padding: 0px;
+  font-size: 50px;
+  padding: 0px;
 }
 
 /* Navigation */
 
 #navbarNav {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .nav {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .bg-light {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .me.navbar-brand {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* General */
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 /* Title */
 
 .title-img {
-    /* The image used */
-    background-image: url("../imgs/bg1.jpg");
-    /* Full height */
-    height: 100vh;
-    /* Center and scale the image nicely */
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  /* The image used */
+  background-image: url("../imgs/bg1.jpg");
+  /* Full height */
+  height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .caption {
-    position: absolute;
-    left: 0;
-    top: 36vh;
-    width: 100%;
-    text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.514);
-    padding-top: 20px;
-    padding-bottom: 20px;
+  position: absolute;
+  left: 0;
+  top: 36vh;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.514);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 hr {
-    background-color: white;
+  background-color: white;
 }
 
 .title {
-    font-size: 25px;
-    font-weight: bold;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .quote {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 /* About Me */
 
 #about-section {
-    background-color: lightgray;
-    padding-top: 100px;
-    padding-bottom: 50px;
+  background-color: lightgray;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 #meImage {
-    width: 17em;
-    border-radius: 50%;
-    right: 20px;
-    display: block;
-    margin-left: auto;
+  width: 17em;
+  border-radius: 50%;
+  right: 20px;
+  display: block;
+  margin-left: auto;
 }
 
 .about-me-row {
-    height: 100%;
-    /* background-color: rgb(0, 0, 0); */
+  height: 100%;
+  /* background-color: rgb(0, 0, 0); */
 }
 
 .about-me-text {
-    height: 100%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+  height: 100%;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 #bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* Knowledge */
 
 #knowledge-section {
-    padding-top: 100px;
-    padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .knowledge-row {
-    padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .html-icon {
-    font-size: 30px;
-    color: #ffc582;
+  font-size: 30px;
+  color: #ffc582;
 }
 
 .css-icon {
-    font-size: 35px;
-    color: #ddda49
+  font-size: 35px;
+  color: #ddda49;
 }
 
 .js-icon {
-    font-size: 35px;
-    color: #54d771;
+  font-size: 35px;
+  color: #54d771;
 }
 
 .db-icon {
-    font-size: 30px;
-    color: #5999cd;
+  font-size: 30px;
+  color: #5999cd;
 }
 
 .icon-div-height {
-    height: 45px;
+  height: 45px;
 }
 
 /* Portfolio */
 
 #portfolio-section {
-    background-color: lightgray;
-    padding-top: 100px;
-    padding-bottom: 50px;
+  background-color: lightgray;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .container-portfolio {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .overlay {
-    position: absolute;
-    top: 50%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: gray;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: gray;
 }
 
 .container-portfolio:hover .overlay {
-    opacity: 1;
+  opacity: 1;
 }
 
 .text-portfolio {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .portfolio-col {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .projects-progress {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 /* Email Section */
 
 #contact-section {
-    background-color: white;
-    padding-top: 100px;
-    padding-bottom: 50px;
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .fa-envelope {
-    font-size: 50px;
-    color: #7fbf39;
+  font-size: 50px;
+  color: #7fbf39;
 }
 
 .right {
-    text-align: right;
+  text-align: right;
 }
 
 .email {
-    padding-top: 2vh;
+  padding-top: 2vh;
 }
 
 #email-me {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .contact-h2 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 /* Footer Section */
 
 #footer-section {
-    text-align: center;
-    font-size: 14px;
-    height: 50px;
-    background-color: black;
-    color: white;
-    padding-top: 12px;
+  text-align: center;
+  font-size: 14px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding-top: 12px;
 }
 
 @media only screen and (max-height: 320px) {
-    .caption {
-        top: 20vh;
-    }
+  .caption {
+    top: 20vh;
+  }
 }
 
 @media only screen and (max-height: 400px) {
-    .caption {
-        top: 30vh;
-    }
+  .caption {
+    top: 30vh;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-    #meImage {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .caption {
-        top: 33vh;
-    }
-    .mobile-center {
-        text-align: center;
-    }
-    .right {
-        text-align: center;
-    }
-    .chevron {
-        padding: 0px;
-    }
-    /* Mobile about section */
-    #about-section {
-        padding-top: 45px;
-        padding-bottom: 0px;
-    }
-    .about-me-text {
-        padding-top: 30px;
-        padding-bottom: 0px;
-    }
-    /* Mobile knowledge section */
-    #knowledge-section {
-        padding-top: 55px;
-        padding-bottom: 0px;
-    }
-    /* Mobile portfolio section */
-    #portfolio-section {
-        padding-top: 55px;
-        padding-bottom: 0px;
-    }
-    /* Mobile contact section */
-    #contact-section {
-        padding-top: 55px;
-        padding-bottom: 10px;
-    }
+  #meImage {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .caption {
+    top: 33vh;
+  }
+  .mobile-center {
+    text-align: center;
+  }
+  .right {
+    text-align: center;
+  }
+  .chevron {
+    padding: 0px;
+  }
+  /* Mobile about section */
+  #about-section {
+    padding-top: 45px;
+    padding-bottom: 0px;
+  }
+  .about-me-text {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  /* Mobile knowledge section */
+  #knowledge-section {
+    padding-top: 55px;
+    padding-bottom: 0px;
+  }
+  /* Mobile portfolio section */
+  #portfolio-section {
+    padding-top: 55px;
+    padding-bottom: 0px;
+  }
+  /* Mobile contact section */
+  #contact-section {
+    padding-top: 55px;
+    padding-bottom: 10px;
+  }
 }
 
 /* Parallax Scrolling for the title image */
 
 .parallax {
-    /* The image used */
-    /* background-image: url('img_parallax.jpg'); */
-    /* Full height */
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* The image used */
+  /* background-image: url('img_parallax.jpg'); */
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+.knowledge-parallax {
+  background-image: url("../imgs/bg3.jpg");
+}
+.portfolio-parallax {
+  background-image: url("../imgs/bg4.jpg");
+}
+.contact-parallax {
+  background-image: url("../imgs/bg5.jpg");
+}
+.parallax-images {
+height: 300px;
+width: 100%;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.parallax-text {
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 43%;
+  width:100%;
+}
 @media only screen and (max-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
+  .parallax {
+    background-attachment: scroll;
+  }
 }

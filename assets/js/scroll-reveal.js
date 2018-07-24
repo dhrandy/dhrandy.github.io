@@ -65,32 +65,32 @@ sr.reveal('.img-fluid', {
 
 
 //Sections
-sr.reveal('#about-section', {
-    reset: true,
-    mobile: false,
-    distance: '2px',
-    duration: 600
-})
-sr.reveal('#knowledge-section', {
-    reset: true,
-    mobile: false,
-    distance: '2px',
-    duration: 600
-})
-sr.reveal('#portfolio-section', {
-    mobile: false,
-    distance: '2px',
-    duration: 600
-})
-sr.reveal('#knowledge-section', {
-    reset: true,
-    mobile: false,
-    distance: '2px',
-    duration: 600
-})
-sr.reveal('#contact-section', {
-    reset: true,
-    mobile: false,
-    distance: '2px',
-    duration: 600
-})
+// sr.reveal('#about-section', {
+//     reset: true,
+//     mobile: false,
+//     distance: '2px',
+//     duration: 600
+// })
+// sr.reveal('#knowledge-section', {
+//     reset: true,
+//     mobile: false,
+//     distance: '2px',
+//     duration: 600
+// })
+// sr.reveal('#portfolio-section', {
+//     mobile: false,
+//     distance: '2px',
+//     duration: 600
+// })
+// sr.reveal('#knowledge-section', {
+//     reset: true,
+//     mobile: false,
+//     distance: '2px',
+//     duration: 600
+// })
+// sr.reveal('#contact-section', {
+//     reset: true,
+//     mobile: false,
+//     distance: '2px',
+//     duration: 600
+// })
