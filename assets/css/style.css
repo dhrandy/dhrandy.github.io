@@ -7,7 +7,6 @@ html {
 
 h2 {
   font-weight: 700;
-  letter-spacing: 2px;
   text-decoration: underline;
 }
 
@@ -135,7 +134,7 @@ hr {
 
 .css-icon {
   font-size: 35px;
-  color: #ddda49;
+  color: #ddda49
 }
 
 .js-icon {
@@ -174,7 +173,7 @@ hr {
   height: 50%;
   width: 100%;
   opacity: 0;
-  transition: 0.5s ease;
+  transition: .5s ease;
   background-color: gray;
 }
 
@@ -242,44 +241,6 @@ hr {
   padding-top: 12px;
 }
 
-/* 
-@media only screen and (max-width: 1980px) {
-<<<<<<< HEAD
-=======
-    .caption {
-        top: 31%;
-    }
-}
-
-<<<<<<< HEAD
-=======
-/* 
-@media only screen and (max-width: 1980px) {
-    .caption {
-        top: 31%;
-    }
-}
-
->>>>>>> parent of e5b0725... updated portfolio links, added parallax scrolling to the title image
-@media only screen and (max-width: 1024px) {
-    .caption {
-        top: 33%;
-    }
-} */
-
-@media only screen and (max-height: 320px) {
->>>>>>> parent of e5b0725... updated portfolio links, added parallax scrolling to the title image
-    .caption {
-        top: 31%;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .caption {
-        top: 33%;
-    }
-} */
-
 @media only screen and (max-height: 320px) {
   .caption {
     top: 20vh;
@@ -293,7 +254,6 @@ hr {
 }
 
 @media only screen and (max-width: 767px) {
-<<<<<<< HEAD
   #meImage {
     margin-left: auto;
     margin-right: auto;
@@ -339,93 +299,19 @@ hr {
 /* Parallax Scrolling for the title image */
 
 .parallax {
+  /* The image used */
+  /* background-image: url('img_parallax.jpg'); */
+  /* Full height */
   height: 100%;
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.knowledge-parallax {
-  background-image: url("../imgs/bg3.jpg");
-}
-
-.portfolio-parallax {
-  background-image: url("../imgs/bg4.jpg");
-}
-
-.contact-parallax {
-  background-image: url("../imgs/bg5.jpg");
-}
-
-.parallax-images {
-  height: 300px;
-  width: 100%;
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.parallax-text {
-  position: absolute;
-  text-align: center;
-  color: white;
-  top: 43%;
-  width: 100%;
-}
-
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 767px) {
   .parallax {
     background-attachment: scroll;
   }
-=======
-    #meImage {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .caption {
-        top: 33vh;
-    }
-    .mobile-center {
-        text-align: center;
-    }
-    .right {
-        text-align: center;
-    }
-    .chevron {
-        padding: 0px;
-    }
-    /* Mobile about section */
-    #about-section {
-        padding-top: 45px;
-        padding-bottom: 0px;
-    }
-    .about-me-text {
-        padding-top: 30px;
-        padding-bottom: 0px;
-    }
-    /* Mobile knowledge section */
-    #knowledge-section {
-        padding-top: 55px;
-        padding-bottom: 0px;
-    }
-    /* Mobile portfolio section */
-    #portfolio-section {
-        padding-top: 55px;
-        padding-bottom: 0px;
-    }
-    /* Mobile contact section */
-    #contact-section {
-        padding-top: 55px;
-        padding-bottom: 10px;
-    }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of e5b0725... updated portfolio links, added parallax scrolling to the title image
-=======
->>>>>>> parent of e5b0725... updated portfolio links, added parallax scrolling to the title image
-=======
->>>>>>> parent of e5b0725... updated portfolio links, added parallax scrolling to the title image
 }

@@ -24,8 +24,8 @@ Designed and edited by Randy Gentry-->
 
 <body>
     <!-- ====Navigation==== -->
-    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light" id="home">
-        <div class="navbar-brand me">RANDY GENTRY</div>
+    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light">
+        <a class="navbar-brand me" href="#home">RANDY GENTRY</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -95,11 +95,13 @@ Designed and edited by Randy Gentry-->
         </div>
     </section>
     <!-- ====Knowledge==== -->
-    <div class="knowledge-parallax parallax-images parallax" rel="prefetch">
-        <h2 class="parallax-text">KNOWLEDGE IS POWER</h2>
-    </div>
     <section id="knowledge-section">
         <div class="container">
+            <div class="row knowledge-row">
+                <div class="col">
+                    <h2 class="center">KNOWLEDGE IS POWER</h2>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-3">
                     <div class="icon-div-height">
@@ -138,11 +140,13 @@ Designed and edited by Randy Gentry-->
         </div>
     </section>
     <!-- ====Portfolio==== -->
-    <div class="portfolio-parallax parallax-images parallax" rel="prefetch">
-        <h2 class="parallax-text">CHECKOUT MY WORK</h2>
-    </div>
     <section id="portfolio-section">
         <div class="container">
+            <div class="row knowledge-row">
+                <div class="col">
+                    <h2 class="center">CHECKOUT MY WORK</h2>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-6 col-md-3 portfolio-col">
                     <div class="container-portfolio">
@@ -251,22 +255,25 @@ Designed and edited by Randy Gentry-->
                     <div class="container-portfolio">
                         <a href="https://github.com/dhrandy/news-scraper">
                             <img src="assets/imgs/homework-11.jpg" alt="News Scraper" Title="News Scraper" class="image img-fluid">
+                            <div class="overlay">
+                                <div class="text-portfolio">News Scraper</div>
+                            </div>
                         </a>
-                        <div class="overlay">
-                            <div class="text-portfolio">News Scraper</div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 portfolio-col">
                     <div class="container-portfolio">
                         <a href="http://www.randy-gentry.com/walters-bakery/">
                             <img src="assets/imgs/personal-1.jpg" alt="Bakery Website Mockup" Title="Backery Website Mockup" class="image img-fluid">
+                            <div class="overlay">
+                                <div class="text-portfolio">Bakery Website</div>
+                            </div>
                         </a>
-                        <div class="overlay">
-                            <div class="text-portfolio">Bakery Website</div>
-                        </div>
                     </div>
                 </div>
+                <!-- ======================================================= -->
+                <!-- The code below is for adding to the portfolio -->
+                <!-- ======================================================= -->
                 <!-- <div class="col-6 col-md-3 portfolio-col">
                     <div class="container-portfolio">
                         <img src="assets/imgs/future-code2.jpg" alt="Future Code" Title="Future Code" class="image img-fluid">
@@ -275,6 +282,7 @@ Designed and edited by Randy Gentry-->
                         </div>
                     </div>
                 </div> -->
+                <!-- ======================================================= -->
             </div>
             <p class="center projects-progress">Some projects are a work in progress.</p>
             <a div class="center chevron nav-link" href="#contact-section">
@@ -283,11 +291,13 @@ Designed and edited by Randy Gentry-->
         </div>
     </section>
     <!-- ====Contact==== -->
-    <div class="contact-parallax parallax-images parallax" rel="prefetch">
-        <h2 class="parallax-text">CONTACT</h2>
-    </div>
     <section id="contact-section">
         <div class="container">
+            <div class="row contact-row contact-h2">
+                <div class="col center">
+                    <h2>CONTACT ME</h2>
+                </div>
+            </div>
             <div class="row contact-row">
                 <div class="col-12 col-md-6 right">
                     <a href="mailto:dhrandy@gmail.com?" target="_top">
