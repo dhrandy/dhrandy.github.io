@@ -242,6 +242,19 @@ hr {
   padding-top: 12px;
 }
 
+/* 
+@media only screen and (max-width: 1980px) {
+    .caption {
+        top: 31%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .caption {
+        top: 33%;
+    }
+} */
+
 @media only screen and (max-height: 320px) {
   .caption {
     top: 20vh;
@@ -255,6 +268,7 @@ hr {
 }
 
 @media only screen and (max-width: 767px) {
+<<<<<<< HEAD
   #meImage {
     margin-left: auto;
     margin-right: auto;
@@ -341,4 +355,46 @@ hr {
   .parallax {
     background-attachment: scroll;
   }
+=======
+    #meImage {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .caption {
+        top: 33vh;
+    }
+    .mobile-center {
+        text-align: center;
+    }
+    .right {
+        text-align: center;
+    }
+    .chevron {
+        padding: 0px;
+    }
+    /* Mobile about section */
+    #about-section {
+        padding-top: 45px;
+        padding-bottom: 0px;
+    }
+    .about-me-text {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    /* Mobile knowledge section */
+    #knowledge-section {
+        padding-top: 55px;
+        padding-bottom: 0px;
+    }
+    /* Mobile portfolio section */
+    #portfolio-section {
+        padding-top: 55px;
+        padding-bottom: 0px;
+    }
+    /* Mobile contact section */
+    #contact-section {
+        padding-top: 55px;
+        padding-bottom: 10px;
+    }
+>>>>>>> parent of e5b0725... updated portfolio links, added parallax scrolling to the title image
 }
