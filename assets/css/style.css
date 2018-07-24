@@ -251,6 +251,16 @@ hr {
     }
 }
 
+<<<<<<< HEAD
+=======
+/* 
+@media only screen and (max-width: 1980px) {
+    .caption {
+        top: 31%;
+    }
+}
+
+>>>>>>> parent of e5b0725... updated portfolio links, added parallax scrolling to the title image
 @media only screen and (max-width: 1024px) {
     .caption {
         top: 33%;
@@ -412,6 +422,9 @@ hr {
         padding-bottom: 10px;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of e5b0725... updated portfolio links, added parallax scrolling to the title image
+=======
 >>>>>>> parent of e5b0725... updated portfolio links, added parallax scrolling to the title image
 =======
 >>>>>>> parent of e5b0725... updated portfolio links, added parallax scrolling to the title image
