@@ -5,26 +5,26 @@ sr.reveal('.navbar', {
     origin: 'bottom'
 })
 //Icons
-sr.reveal('.facebookIcon', {
-    duration: 1500,
-    origin: 'top',
-    distance: '100px'
-})
-sr.reveal('.twitterIcon', {
-    duration: 2000,
-    origin: 'top',
-    distance: '100px'
-})
-sr.reveal('.linkedinIcon', {
-    duration: 2500,
-    origin: 'top',
-    distance: '100px'
-})
-sr.reveal('.githubIcon', {
-    duration: 3000,
-    origin: 'top',
-    distance: '100px'
-})
+// sr.reveal('.facebookIcon', {
+//     duration: 1500,
+//     origin: 'top',
+//     distance: '100px'
+// })
+// sr.reveal('.twitterIcon', {
+//     duration: 2000,
+//     origin: 'top',
+//     distance: '100px'
+// })
+// sr.reveal('.linkedinIcon', {
+//     duration: 2500,
+//     origin: 'top',
+//     distance: '100px'
+// })
+// sr.reveal('.githubIcon', {
+//     duration: 3000,
+//     origin: 'top',
+//     distance: '100px'
+// })
 //Image of me
 sr.reveal('#meImage', {
     duration: 2000,
