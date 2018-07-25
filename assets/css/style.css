@@ -69,6 +69,18 @@ hr {
   font-weight: bold;
 }
 
+.zoom {
+  transition: transform .4s; /* Animation */
+  margin: 0 auto;
+  text-decoration: none; /* no underline */
+}
+
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  text-decoration: none; /* no underline */
+}
+
 .quote {
   font-size: 16px;
 }
@@ -232,9 +244,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
   }
-  /* .caption {
-    top: 33vh;
-  } */
+
   .mobile-center {
     text-align: center;
   }

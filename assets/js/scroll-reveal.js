@@ -25,6 +25,11 @@ sr.reveal('.navbar', {
 //     origin: 'top',
 //     distance: '100px'
 // })
+// sr.reveal('.caption', {
+//     duration:2000,
+//     origin: 'top',
+//     distance:'100'
+// })
 //Image of me
 sr.reveal('#meImage', {
     duration: 2000,
