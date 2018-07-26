@@ -11,7 +11,7 @@ h1 {
   padding-top: .3125rem;
   padding-bottom: .3125rem;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 h2 {
@@ -74,20 +74,28 @@ hr {
 }
 
 .title {
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 28px;
   font-weight: bold;
 }
 
 .zoom {
-  transition: transform .4s; /* Animation */
+  transition: transform .4s;
+  /* Animation */
   margin: 0 auto;
-  text-decoration: none; /* no underline */
+  text-decoration: none;
+  /* no underline */
 }
 
-
 .zoom:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  text-decoration: none; /* no underline */
+  transform: scale(1.2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  text-decoration: none;
+  /* no underline */
 }
 
 .quote {
@@ -254,7 +262,6 @@ hr {
     margin-left: auto;
     margin-right: auto;
   }
-
   .mobile-center {
     text-align: center;
   }
