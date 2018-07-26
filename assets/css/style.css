@@ -5,6 +5,15 @@ html {
   margin: 0;
 }
 
+h1 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin: 0;
+  padding:0;
+}
+
 h2 {
   font-weight: 700;
   text-decoration: underline;
