@@ -182,7 +182,6 @@ hr {
 
 .overlay {
   position: absolute;
-  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
@@ -195,6 +194,7 @@ hr {
 
 .container-portfolio:hover .overlay {
   opacity: 1;
+  height: 100%;
 }
 
 .text-portfolio, .text-portfolio-desc {
@@ -203,7 +203,8 @@ hr {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -5vw);
+  width:100%;
+  transform: translate(-50%, -2vw);
   -ms-transform: translate(-50%, -200%);
   text-align: center;
 }
