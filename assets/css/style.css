@@ -182,30 +182,36 @@ hr {
 
 .overlay {
   position: absolute;
-  top: 50%;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 50%;
+  height: 100%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: gray;
+  background-color: rgba(0, 0, 0, 0.712);
 }
 
 .container-portfolio:hover .overlay {
   opacity: 1;
 }
 
-.text-portfolio {
+.text-portfolio, .text-portfolio-desc {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -5vw);
+  -ms-transform: translate(-50%, -200%);
   text-align: center;
+}
+
+.text-portfolio-desc {
+  font-size: 12px;
+  transform: translate(-50%, 1vw);
+  -ms-transform: translate(-50%, 80%);
 }
 
 .portfolio-col {
