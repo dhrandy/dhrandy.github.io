@@ -297,6 +297,9 @@ hr {
     padding-top: 30px;
     padding-bottom: 0px;
   }
+  #resume-button-center {
+    text-align: center;
+  }
   /* Mobile knowledge section */
   #knowledge-section {
     padding-top: 55px;
