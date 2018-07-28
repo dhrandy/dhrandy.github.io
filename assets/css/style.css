@@ -37,14 +37,6 @@ h2 {
   flex-direction: row-reverse;
 }
 
-.nav {
-  background-color: transparent;
-}
-
-.bg-light {
-  background-color: transparent !important;
-}
-
 .me.navbar-brand {
   font-weight: bold;
 }
@@ -130,6 +122,11 @@ hr {
 
 #bold {
   font-weight: bold;
+}
+
+.btn-outline-primary {
+    font-size: 14px;
+    font-weight: bold;
 }
 
 /* Knowledge */
