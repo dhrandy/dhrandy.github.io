@@ -1,6 +1,10 @@
 window.sr = ScrollReveal();
 //Navbar
-sr.reveal('.navbar', {
+sr.reveal('.me', {
+    duration: 2000,
+    origin: 'bottom'
+})
+sr.reveal('.nav', {
     duration: 2000,
     origin: 'bottom'
 })
