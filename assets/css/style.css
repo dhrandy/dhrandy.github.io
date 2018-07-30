@@ -327,5 +327,6 @@ hr {
 @media only screen and (max-width: 1366px) {
   .parallax-window {
     background-attachment: scroll;
+    /* background-image: url(../imgs/bgmobile.jpg); */
   }
 }

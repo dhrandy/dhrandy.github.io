@@ -26,7 +26,7 @@ Designed and edited by Randy Gentry-->
 
 <body>
     <!-- ====Navigation==== -->
-    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light" id="home">
         <h1 class="navbar-brand me">RANDY GENTRY</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -50,7 +50,7 @@ Designed and edited by Randy Gentry-->
         </div>
     </nav>
     <!-- ====Title==== -->
-    <div class="parallax-window container-responsive title-img" id="home" data-parallax="scroll" data-image-src="assets/imgs/bg.jpg">
+    <div class="parallax-window container-responsive title-img" data-parallax="scroll" data-image-src="assets/imgs/bg.jpg">
         <div class="caption" data-parallax="scroll">
             <span class="title">RANDY GENTRY</span>
             <br>
@@ -60,16 +60,16 @@ Designed and edited by Randy Gentry-->
             <br>
             <br>
             <a href="https://www.facebook.com/dhrandy">
-                <img src="assets/imgs/facebook.png" class="facebookIcon zoom" target="_blank">
+                <img src="assets/imgs/facebook.png" class="facebookIcon zoom" target="_blank" alt="My Facebook Link" title="My Facebook Link">
             </a>
             <a href="https://www.twitter.com/dhrandy">
-                <img src="assets/imgs/twitter.png" class="twitterIcon zoom" target="_blank">
+                <img src="assets/imgs/twitter.png" class="twitterIcon zoom" target="_blank" alt="My Twitter Link" title="My Twitter Link">
             </a>
             <a href="https://www.linkedin.com/in/dhrandy/">
-                <img src="assets/imgs/linkedin.png" class="linkedinIcon zoom" target="_blank">
+                <img src="assets/imgs/linkedin.png" class="linkedinIcon zoom" target="_blank" alt="My LinkedIn Link" title="My LinkedIn Link">
             </a>
             <a href="https://github.com/dhrandy">
-                <img src="assets/imgs/github.png" class="githubIcon zoom" target="_blank">
+                <img src="assets/imgs/github.png" class="githubIcon zoom" target="_blank" alt="My Github Link" title="My Github Link">
             </a>
         </div>
     </div>
@@ -90,7 +90,7 @@ Designed and edited by Randy Gentry-->
                     <div id="resume-button-center">
                         <p>
                             <a href="assets/docs/RandyGentryDigtialResume.pdf" download>
-                                <button type="button" class="btn btn-outline-primary">Digital Resume Download</button>
+                                <button type="button" class="btn btn-outline-primary">Download Digital Resume</button>
                             </a>
                         </p>
                     </div>
@@ -316,11 +316,25 @@ Designed and edited by Randy Gentry-->
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-6 col-md-3 portfolio-col">
+                    <div class="container-portfolio">
+                        <a href="https://github.com/dhrandy/clicky-game">
+                            <img src="assets/imgs/homework-12.jpg" alt="Super Heroes Clicky Game" Title="Super Heroes Clicky Game" class="image img-fluid">
+                            <div class="overlay">
+                                <div class="text-portfolio">
+                                    <h6>Super Heroes Clicky Game</h6>
+                                    <p class="text-portfolio-desc">A game create with ReactJS.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
             <p class="center projects-progress">Some projects are a work in progress.</p>
             <a class="center chevron nav-link" href="#contact-section">
                 <i class="fas fa-angle-down"></i>
             </a>
-        </div>
         </div>
     </section>
     <!-- ====Contact==== -->
@@ -346,7 +360,7 @@ Designed and edited by Randy Gentry-->
             <a class="center chevron-up nav-link" href="#home">
                 <i class="fas fa-angle-up"></i>
             </a>
-            </ </div>
+        </div>
     </section>
     <!-- ====Footer==== -->
     <section id="footer-section">
@@ -357,7 +371,6 @@ Designed and edited by Randy Gentry-->
             </div>
         </div>
     </section>
-
     <!-- ====Scripts==== -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
