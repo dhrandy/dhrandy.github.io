@@ -96,6 +96,7 @@ hr {
 }
 
 /* About Me */
+
 .about-me-font {
   font-family: IntoLight, Arial;
   font-size: 18px;
@@ -134,8 +135,8 @@ hr {
 }
 
 .btn-outline-primary {
-    font-size: 14px;
-    font-weight: bold;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 /* Knowledge */
@@ -203,13 +204,14 @@ hr {
   height: 100%;
 }
 
-.text-portfolio, .text-portfolio-desc {
+.text-portfolio,
+.text-portfolio-desc {
   color: white;
   font-size: 16px;
   position: absolute;
   top: 50%;
   left: 50%;
-  width:100%;
+  width: 100%;
   transform: translate(-50%, -2vw);
   -ms-transform: translate(-50%, -200%);
   text-align: center;
@@ -264,10 +266,48 @@ hr {
 #footer-section {
   text-align: center;
   font-size: 14px;
-  height: 50px;
+  height: 110px;
   background-color: black;
   color: white;
-  padding-top: 12px;
+  padding: 20px 0 20px 0;
+}
+
+.social-footer {
+  margin: 0 1px 10px 0;
+}
+
+.fab {
+  padding: 10px;
+  font-size: 18px;
+  width: 37px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+} 
+
+.fa-facebook-f {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: rgb(80, 80, 80);
+  color: white;
+}
+.fab:hover {
+  opacity: 0.7;
+  color:lightslategray;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 767px) {
