@@ -89,7 +89,7 @@ sr.reveal('#hobby-section', {
     reset: true,
     mobile: false
 })
-sr.reveal('#contact-section', {
+sr.reveal('.contact-container-reveal', {
     reset: true,
     mobile: false
 })
