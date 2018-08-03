@@ -108,8 +108,7 @@ hr {
 
 #about-section {
   background-color: lightgray;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding: 100px 0 50px 0;
 }
 
 #meImage {
@@ -126,8 +125,7 @@ hr {
 
 .about-me-text {
   height: 100%;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding: 4% 0 4% 0;
 }
 
 #bold {
@@ -142,8 +140,7 @@ hr {
 /* Knowledge */
 
 #knowledge-section {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding: 100px 0 50px 0;
 }
 
 .knowledge-row {
@@ -353,30 +350,21 @@ hr {
   }
   /* Mobile about section */
   #about-section {
-    padding-top: 45px;
-    padding-bottom: 0px;
+    padding: 45px 0 0 0;
   }
   .about-me-text {
-    padding-top: 30px;
-    padding-bottom: 0px;
+    padding: 30px 0 0 0;
   }
   #resume-button-center {
     text-align: center;
   }
-  /* Mobile knowledge section */
-  #knowledge-section {
-    padding-top: 55px;
-    padding-bottom: 0px;
-  }
-  /* Mobile portfolio section */
-  #portfolio-section {
-    padding-top: 55px;
-    padding-bottom: 0px;
+  /* Mobile knowledge, portfolio, hobby section */
+  #knowledge-section, #portfolio-section, #hobby-section {
+    padding: 55px 0 0 0;
   }
   /* Mobile contact section */
   #contact-section {
-    padding-top: 55px;
-    padding-bottom: 10px;
+    padding: 55px 0 10px 0;
   }
 }
 
