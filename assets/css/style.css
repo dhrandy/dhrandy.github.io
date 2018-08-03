@@ -98,10 +98,12 @@ hr {
 .about-me-font {
   font-family: IntoLight, Arial;
   font-size: 18px;
+  padding: 0 10px 0 10px;
 }
 
 .meet-me {
   font-size: 20px;
+  padding: 0 10px 0 10px;
 }
 
 #about-section {
