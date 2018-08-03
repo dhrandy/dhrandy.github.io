@@ -6,7 +6,8 @@ sr.reveal('.me', {
 })
 sr.reveal('.nav', {
     duration: 2000,
-    origin: 'bottom'
+    origin: 'bottom',
+    mobile: false
 })
 //Icons
 // sr.reveal('.facebookIcon', {
