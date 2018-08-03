@@ -9,32 +9,6 @@ sr.reveal('.nav', {
     origin: 'bottom',
     mobile: false
 })
-//Icons
-// sr.reveal('.facebookIcon', {
-//     duration: 1500,
-//     origin: 'top',
-//     distance: '100px'
-// })
-// sr.reveal('.twitterIcon', {
-//     duration: 2000,
-//     origin: 'top',
-//     distance: '100px'
-// })
-// sr.reveal('.linkedinIcon', {
-//     duration: 2500,
-//     origin: 'top',
-//     distance: '100px'
-// })
-// sr.reveal('.githubIcon', {
-//     duration: 3000,
-//     origin: 'top',
-//     distance: '100px'
-// })
-// sr.reveal('.caption', {
-//     duration:2000,
-//     origin: 'top',
-//     distance:'100'
-// })
 //Image of me
 sr.reveal('#meImage', {
     duration: 2000,

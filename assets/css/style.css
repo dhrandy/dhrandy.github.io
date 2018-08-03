@@ -13,8 +13,6 @@ html {
 h1 {
   font-size: 1.25rem;
   font-weight: bold;
-  padding-top: .3125rem;
-  padding-bottom: .3125rem;
   margin: 0;
   padding: 0;
 }
@@ -259,13 +257,16 @@ hr {
 }
 
 /* Hobby Section */
+
 #hobby-section {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
 .hobby-row {
   padding-bottom: 60px;
 }
+
 .hobby-pic {
   width: 250px;
   /* border-radius: 50%; */
@@ -303,7 +304,7 @@ hr {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-} 
+}
 
 .fa-facebook-f {
   background: #3B5998;
@@ -324,11 +325,13 @@ hr {
   background: rgb(80, 80, 80);
   color: white;
 }
+
 .fab:hover {
   opacity: 0.7;
-  color:lightslategray;
+  color: lightslategray;
   text-decoration: none;
 }
+
 .footer-link-color {
   color: white;
   text-decoration: none;
@@ -359,12 +362,17 @@ hr {
     text-align: center;
   }
   /* Mobile knowledge, portfolio, hobby section */
-  #knowledge-section, #portfolio-section, #hobby-section {
+  #knowledge-section,
+  #portfolio-section,
+  #hobby-section {
     padding: 55px 0 0 0;
   }
   /* Mobile contact section */
   #contact-section {
     padding: 55px 0 10px 0;
+  }
+  .hobby-pic {
+    padding: 0;
   }
 }
 
