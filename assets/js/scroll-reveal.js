@@ -84,6 +84,10 @@ sr.reveal('#portfolio-container-reveal', {
     reset: true,
     mobile: false
 })
+sr.reveal('#hobby-section', {
+    reset: true,
+    mobile: false
+})
 sr.reveal('#contact-section', {
     reset: true,
     mobile: false
