@@ -19,7 +19,13 @@ h1 {
 
 h2 {
   font-weight: 700;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+}
+
+.hr-titles {
+  width: 100px;
+  height: 5px !important;
+  background-color: rgb(78, 151, 247)!important;
 }
 
 /* For scrolling to the next section */
