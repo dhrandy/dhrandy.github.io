@@ -59,7 +59,7 @@ sr.reveal('#portfolio-container-reveal', {
     reset: true,
     mobile: false
 })
-sr.reveal('#hobby-section', {
+sr.reveal('.hobby-section-reveal', {
     reset: true,
     mobile: false
 })
