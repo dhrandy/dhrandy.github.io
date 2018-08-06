@@ -5,5 +5,5 @@ Visit my website at [http://www.randy-gentry.com](http://www.randy-gentry.com) t
 ### Technologies Used
 
 HTML Editor - Visual Studio Code - [Link](https://code.visualstudio.com/)  
-CSS - Bootstrap - [Link](https://getbootstrap.com/)
+CSS - Bootstrap - [Link](https://getbootstrap.com/)  
 JavaScript
