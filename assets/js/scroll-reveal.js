@@ -13,7 +13,7 @@ sr.reveal('.nav', {
 sr.reveal('#meImage', {
     duration: 2000,
     origin: 'left',
-    distance: '200px'
+    distance: '150px'
 })
 //Knowledge Icons
 sr.reveal('.fa-code', {

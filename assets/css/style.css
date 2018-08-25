@@ -19,7 +19,6 @@ h1 {
 
 h2 {
   font-weight: 700;
-  /* text-decoration: underline; */
 }
 
 .hr-titles {
@@ -102,8 +101,8 @@ hr {
 /* About Me */
 
 .about-me-font {
-  font-family: IntoLight, Arial;
-  font-size: 18px;
+  /* font-family: IntoLight, Arial;
+  font-size: 18px; */
   padding: 0 10px 0 10px;
 }
 
