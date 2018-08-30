@@ -48,22 +48,22 @@ sr.reveal('.img-fluid', {
 
 //Sections - Removed when I added parallax
 sr.reveal('#about-container-reveal', {
-    reset: true,
+    // reset: true,
     mobile: false
 })
 sr.reveal('#knowledge-section', {
-    reset: true,
+    // reset: true,
     mobile: false
 })
 sr.reveal('#portfolio-container-reveal', {
-    reset: true,
+    // reset: true,
     mobile: false
 })
 sr.reveal('.hobby-section-reveal', {
-    reset: true,
+    // reset: true,
     mobile: false
 })
 sr.reveal('.contact-container-reveal', {
-    reset: true,
+    // reset: true,
     mobile: false
 })
