@@ -234,6 +234,10 @@ hr {
   padding-top: 20px;
 }
 
+.link {
+  font-weight: bold;
+}
+
 /* Hobbies */
 /* .wrapper {
   position: relative;
