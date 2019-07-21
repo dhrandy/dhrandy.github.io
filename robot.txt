@@ -1,5 +1,6 @@
 # robots.txt
+
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
-Sitemap: http://www.randy-gentry.com
+Allow: /
+
+Sitemap: http://www.randy-gentry.com/sitemap.xml
