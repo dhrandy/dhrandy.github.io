@@ -1,5 +1,5 @@
-// Smoooth scroll function
+// Smooth scroll function
 function nav(){
-var scroll = new SmoothScroll('a[href*="#"]');
-};
-nav();
+    var scroll = new SmoothScroll('a[href*="#"]');
+    };
+    nav();
