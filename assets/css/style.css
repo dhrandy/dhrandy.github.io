@@ -252,10 +252,12 @@ section {
   right: 0;
   opacity: 0;
   transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
   background-color: rgba(81, 0, 186, 0.801);
   border-radius: 9px;
   margin: 10px;
   margin-bottom: 14px;
+  cursor: pointer;
 }
 
 .portfolio-item-1:hover .overlay,
@@ -397,11 +399,13 @@ fieldset {
   font-size: 16px;
   border-radius: 40px;
   transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
 }
 
 .button-position {
   position: absolute;
   top: 65%;
+  transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
   /* Safari */
   cursor: pointer;
@@ -713,6 +717,15 @@ a:-webkit-any-link {
     padding-bottom: 5px;
   }
 
+  /* .button-position {
+    top: 115%;
+    transition-duration: unset;
+    -webkit-transition-duration: unset;
+    cursor: unset;
+    -webkit-transform: unset;
+    -ms-transform: unset;
+    transform: unset;
+} */
 }
 
 @media screen and (max-width: 600px) {
