@@ -28,9 +28,8 @@ sr.reveal('.image-hobbies', {
     origin: 'top',
 })
 
-sr.reveal('.laptop-image', {
-    duration: 2000,
-    origin: 'right',
-    distance: '50px'
-})
-
+// sr.reveal('.laptop-image', {
+//     duration: 2000,
+//     origin: 'right',
+//     distance: '50px'
+// })
